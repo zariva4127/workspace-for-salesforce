@@ -1,0 +1,44 @@
+Workspace for Salesforce is a toolbox for Salesforce admins, developers, and testers. It opens from the toolbar as a window, or in Chrome's side panel, and works with the Salesforce tab you already have signed in.
+
+RECORDS
+• Search records by name, number, email, or ID.
+• Open record details with fields, lookups, and related records.
+• Create, edit, and delete records with the same permissions you have in Salesforce. Deletes ask for confirmation.
+
+DATA IMPORT & EXPORT
+• Import CSV files with column mapping, validation, a preview, and a confirmation step before anything is written.
+• Export selected fields with an optional filter to CSV.
+
+USERS AND ACCESS
+• Look up users with their profile, permission sets, and groups.
+• Explain why a user can or cannot see an object, field, or record.
+
+FLOWS & FORMS
+• Translate a pasted flow error into plain language.
+• Record test steps and screenshots and export a bug report.
+
+APEX & FLOW EXPLORER
+• Browse Apex classes, triggers, and Flows with a local explanation of each.
+
+DEVELOPMENT
+• Run read-only SOQL and Tooling API queries with saved queries.
+• Browse and analyze debug logs.
+• Explain pasted Salesforce CLI deployment errors.
+
+METADATA
+• Search objects and fields, check field mappings for type mismatches, and see where custom fields are used.
+
+BUILT FOR CAREFUL USE
+• Each org keeps its own settings, saved items, and history, with colored badges and a production warning strip.
+• Light, dark, and high-contrast themes, plus an accent color.
+• Keyboard navigation throughout.
+
+PRIVACY
+• Everything is processed locally in your browser.
+• No data is sent to the developer, to analytics, or to any AI service.
+• The extension talks only to your connected Salesforce org.
+• No remote code is used.
+
+PLEASE NOTE
+• Access and dependency results come from Salesforce APIs and can be incomplete. The extension says so where relevant.
+• This extension is independent and is not affiliated with or endorsed by Salesforce, Inc. Salesforce is a trademark of Salesforce, Inc.

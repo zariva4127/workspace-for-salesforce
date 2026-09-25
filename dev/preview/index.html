@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Salesforce Workspace — dev preview</title>
+    <link rel="stylesheet" href="/dist/sidepanel.css" />
+    <script src="/dist/theme-boot.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Dev only: fakes the Chrome extension APIs and a Salesforce org, then loads the real built bundle. -->
+    <script src="/dev/preview/mock-chrome.js"></script>
+    <script type="module" src="/dist/sidepanel.js"></script>
+  </body>
+</html>
