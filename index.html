@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workspace for Salesforce — Support and Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --accent: #0b827c; }
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 20px; margin-top: 40px; border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
+  a { color: var(--accent); }
+  nav a { margin-right: 16px; }
+  .muted { opacity: .75; font-size: 14px; }
+  code { font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>Workspace for Salesforce</h1>
+<p class="muted">A Chrome extension for Salesforce admins, developers, and testers. Independent product, not affiliated with or endorsed by Salesforce, Inc. Salesforce is a trademark of Salesforce, Inc.</p>
+<nav><a href="#support">Support</a><a href="#privacy">Privacy policy</a></nav>
+
+<h2 id="support">Support</h2>
+<p>Need help or found a problem? Email <a href="mailto:YOUR_SUPPORT_EMAIL">YOUR_SUPPORT_EMAIL</a>. We aim to reply within a few business days.</p>
+<p>To help us reproduce an issue, please include:</p>
+<ul>
+  <li>The extension version (shown in Settings) and your Chrome version.</li>
+  <li>The tool you were using and the steps you took.</li>
+  <li>The message shown on screen. Please remove customer data, record IDs, usernames, and tokens first.</li>
+</ul>
+<p>Never send passwords, session IDs, access tokens, or refresh tokens.</p>
+
+<h2 id="privacy">Privacy policy</h2>
+<p class="muted">Effective date: 25 September 2026</p>
+<p>Workspace for Salesforce processes Salesforce information locally in your Chrome profile to provide the features you invoke. It does not sell data, use data for advertising, or send Salesforce data to the developer or to any third-party analytics or AI service.</p>
+
+<h3>What the extension accesses</h3>
+<ul>
+  <li><strong>Your Salesforce session.</strong> When launched from a Salesforce tab, it reads that tab's Salesforce session cookie, validates the org and user through Salesforce APIs, and holds the credential only in Chrome session storage until Chrome closes. Optional OAuth access tokens are also held in session storage.</li>
+  <li><strong>Salesforce data you work with.</strong> Records, users, metadata, and logs are requested from your own Salesforce org, using your own permissions, and shown in the extension. Salesforce data is not sent anywhere else.</li>
+  <li><strong>The URL of the active Salesforce tab</strong>, to recognize the current page and org. No page content is scraped.</li>
+</ul>
+
+<h3>What is stored on your device</h3>
+<p>Per-org display preferences, metadata cache entries, saved queries, test steps and screenshots you create, and recent tool state. If you turn on "Stay connected" for the optional OAuth sign-in, a refresh token is stored in Chrome extension local storage. Unsaved record-form drafts are kept only in the window's session storage and cleared when saved or discarded. The extension never asks for or stores Salesforce passwords or client secrets.</p>
+
+<h3>What is changed in Salesforce</h3>
+<p>Salesforce data changes only when you save a record form, confirm a delete, or confirm a CSV import, and always with your own permissions. Queries, metadata, access, and log tools are read-only.</p>
+
+<h3>Who data is shared with</h3>
+<p>Data is exchanged only with your connected Salesforce org and, if you use the OAuth fallback, Salesforce's login endpoint. No data is shared with the developer or any third party. The extension contains no remote executable code.</p>
+
+<h3>Your controls</h3>
+<ul>
+  <li><strong>Disconnect</strong> revokes the active Salesforce token.</li>
+  <li><strong>Forget org</strong> removes that org's connection, settings, cached metadata, query history, and test sessions from extension storage.</li>
+  <li>Removing the extension or clearing the browser profile's extension data deletes everything stored locally.</li>
+  <li>Exports and bug reports are saved only where you choose.</li>
+</ul>
+
+<h3>Changes and contact</h3>
+<p>If this policy changes, the updated version and effective date will be posted on this page. Questions: <a href="mailto:YOUR_SUPPORT_EMAIL">YOUR_SUPPORT_EMAIL</a>.</p>
+</body>
+</html>
